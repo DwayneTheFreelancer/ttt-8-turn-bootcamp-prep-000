@@ -24,7 +24,7 @@ end
 
 num = "Please enter 1-9:"
 num = gets
-def turn(move) 
-  puts "Please enter 1-9:"
+def turn(num) 
+ input_to_index
   
 end
