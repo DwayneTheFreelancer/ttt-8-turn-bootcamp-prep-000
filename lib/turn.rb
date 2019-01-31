@@ -15,3 +15,9 @@ end
 def move(board, index, value = "X") 
   puts board[index] = value
 end
+
+def valid_move?(board, index) 
+  if (board[index] == " ")
+    return true
+  end
+end
