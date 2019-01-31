@@ -13,7 +13,7 @@ def input_to_index(int)
 end
 
 def move(board, index, value = "X") 
-  puts board[index] = value
+  return board[index] = value
 end
 
 def valid_move?(board, index) 
