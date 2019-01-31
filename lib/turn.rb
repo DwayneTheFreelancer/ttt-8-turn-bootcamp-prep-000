@@ -13,9 +13,7 @@ def input_to_index(int)
 end
 
 def move(board, index, value = "X") 
-  if (valid_move?) 
     return board[index] = value
-  end
 end
 
 def valid_move?(board, index) 
