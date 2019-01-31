@@ -21,3 +21,7 @@ def valid_move?(board, index)
     return true
   end
 end
+
+def turn() 
+  puts 
+end
