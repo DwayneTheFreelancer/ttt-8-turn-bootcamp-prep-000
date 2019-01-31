@@ -14,7 +14,7 @@ end
 
 def move(board, index, value = "X") 
   if (valid_move?) 
-    return return board[index] = value
+    return board[index] = value
   end
 end
 
