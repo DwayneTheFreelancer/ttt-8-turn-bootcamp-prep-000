@@ -26,5 +26,4 @@ num = "Please enter 1-9:"
 num = gets
 def turn(num) 
  input_to_index(int)
-  
 end
