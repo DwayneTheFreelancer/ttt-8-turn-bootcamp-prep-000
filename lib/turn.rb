@@ -24,9 +24,8 @@ end
 
 
 def turn(move) 
-  num "Please enter 1-9:"
+  puts "Please enter 1-9:"
   num = gets
-  puts num
 end
 
 
