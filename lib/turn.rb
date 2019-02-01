@@ -33,7 +33,7 @@ def turn(board)
   if (valid_move?(board, index))
     return true
   else 
-    return turn(board)
+    turn(board)
   end
 
 end
