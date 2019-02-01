@@ -22,8 +22,7 @@ def valid_move?(board, index)
   end
 end
 
-num = "Please enter 1-9:"
-#num = gets.chomp
+
 def turn(move) 
   puts "Please enter 1-9:"
 end
