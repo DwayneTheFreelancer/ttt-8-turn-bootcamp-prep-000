@@ -28,7 +28,9 @@ def turn(move)
   num = gets
   input_to_index(num)
   if(valid_move?)
-    
+    move
+    display_board(board)
+  end
   #valid_move?(board, index)
 end
 
