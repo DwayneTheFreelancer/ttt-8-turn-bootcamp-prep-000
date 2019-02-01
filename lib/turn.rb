@@ -29,7 +29,7 @@ def turn(move)
   input_to_index(num)
   if(valid_move?)
     move
-    display_board(board)
+    #display_board(board)
   end
   #valid_move?(board, index)
 end
