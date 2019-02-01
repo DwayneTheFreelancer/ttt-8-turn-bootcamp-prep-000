@@ -22,7 +22,7 @@ def valid_move?(board, index)
   end
 end
 
-
+num = "Please enter 1-9:"
 def turn(move) 
   puts "Please enter 1-9:".
 end
