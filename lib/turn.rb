@@ -31,11 +31,11 @@ def turn(board)
   num = gets
   index = input_to_index(num)
   if (valid_move?(board, index))
-    return true
+    move(board, index, value)
   else 
     turn(board)
   end
-
+  
 end
 
 
