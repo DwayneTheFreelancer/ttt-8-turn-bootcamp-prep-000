@@ -25,5 +25,5 @@ end
 num = "Please enter 1-9:"
 num = gets.chomp
 def turn(move) 
-  puts num.
+  puts num
 end
