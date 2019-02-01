@@ -27,7 +27,7 @@ def turn(move)
   puts "Please enter 1-9:"
   num = gets
   input_to_index(num)
-  valid_move?(move, num)
+  
 end
 
 
