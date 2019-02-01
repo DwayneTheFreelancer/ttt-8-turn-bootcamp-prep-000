@@ -27,7 +27,7 @@ def position_taken?(board, index)
     return true
   end
   
-  return false
+  false
 end
 
 def turn(move) 
