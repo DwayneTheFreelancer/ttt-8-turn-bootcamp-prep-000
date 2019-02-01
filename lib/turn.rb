@@ -25,5 +25,5 @@ end
 num = "Please enter 1-9:"
 num = gets.strip
 def turn(move) 
-  puts num.strip
+  puts num
 end
