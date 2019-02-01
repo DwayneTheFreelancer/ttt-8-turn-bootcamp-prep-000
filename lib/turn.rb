@@ -24,5 +24,5 @@ end
 
 
 def turn(move) 
-  puts "Please enter 1-9:"
+  puts "Please enter 1-9:".chomp
 end
